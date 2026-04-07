@@ -22,7 +22,8 @@ starterProjects:
 components:
   - name: dotnet
     container:
-      image: registry.access.redhat.com/ubi9/dotnet-100:9.7
+      #image: registry.access.redhat.com/ubi9/dotnet-100:9.7
+      image: quay.io/rh_ee_lsnidero/devfile-dotnet-node:10-24
       args: ["tail", "-f", "/dev/null"]
       mountSources: true
       env:

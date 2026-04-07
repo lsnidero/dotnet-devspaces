@@ -1,0 +1,7 @@
+FROM registry.access.redhat.com/ubi10/ubi:10.1
+
+RUN dnf install -y dotnet-sdk-10.0 
+RUN dnf install -y dotnet-sdk-aot-10.0 
+RUN dnf install -y nodejs24-npm git openssl
+
+RUN ln -s /usr/bin/npm-24 /usr/bin/npm
