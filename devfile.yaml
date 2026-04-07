@@ -11,7 +11,7 @@ metadata:
   language: .NET
   version: 1.0.0
 starterProjects:
-  - name: dotnet80-example
+  - name: dotnet10-example
     git:
       checkoutFrom:
         remote: origin
