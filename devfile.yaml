@@ -17,7 +17,7 @@ starterProjects:
         remote: origin
         revision: dotnet-10.0
       remotes:
-        origin: https://github.com/redhat-developer/s2i-dotnetcore-ex
+        origin: https://github.com/lsnidero/dotnet-devspaces
     subDir: app
 components:
   - name: dotnet
